@@ -33,7 +33,7 @@ fun CoinListItem(
         horizontalArrangement = Arrangement.SpaceBetween,
     ) {
         Text(
-            text = "${coin.rank}. ${coin.rank} (${coin.symbol})",
+            text = "${coin.rank}. ${coin.name} (${coin.symbol})",
             style = MaterialTheme.typography.bodyLarge,
             overflow = TextOverflow.Ellipsis
         )
